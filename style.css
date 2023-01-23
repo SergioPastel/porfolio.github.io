@@ -5,6 +5,7 @@
 
 body {
     background-color: black;
+    max-width: 100%;
 }
 
 .content {
@@ -29,13 +30,14 @@ body::after {
     left: 0;
     bottom: 0;
     right: 0;
-    position: absolute;
+    position: fixed;
     z-index: -1;   
+    max-width: 100%;
   }
 
 @keyframes fadeIn {
     0% { opacity: 0; }
-    100% { opacity: 1; }
+    100% { opacity: 0.5; }
 }
 
 
