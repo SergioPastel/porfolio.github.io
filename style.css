@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.content {
+    max-width: 2000px;
+    margin: auto;
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+}
+
+body::after {
+    content: "";
+    animation: fadeIn 3s;
+    background-image: url(ver1.png);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+.foto {
+    float: left;
+    position: absolute;
+    width: 35%;
+    height: 110%;
+}
+
+.intro {
+    animation: fadeIn 5s;
+    color: white;
+    margin-top: 15%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.parte2 {
+    padding-top: 25%;
+    color: gray;
+}
+
+.sobre {
+    float: right;
+    color: white;
+    margin-top: 15%;
+    font-size: 2em;
+    text-align: center justify;
+    border: solid 5px;
+    border-color: white;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    margin: 5%;
+    margin-bottom: 10%;
+    margin-top: 4%;
+}
+
+.sobre1 {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.sobre p {
+    text-align: justify;
+    padding: 2%;
+    padding-bottom: 1%;
+}
+
+html {
+    overflow:   scroll;
+}
+  
+::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+}
+
+.exp1 {
+    color: white;
+    margin-top: 10%;
+    font-size: 3em;
+    text-align: center;
+}
+
+.edu {
+    color: white;
+    margin-top: 8%;
+    font-size: 3em;
+    text-align: center justify;
+}
+
+.flavio {
+    color: white;
+    margin-top: 5%;
+    margin-right: 30%;
+    font-size: 2.2em;
+    text-align: center justify;
+}
+
+.proandi {
+    color: white;
+    margin-top: 1%;
+    margin-right: 30%;
+    font-size: 2.2em;
+    text-align: center justify;
+}
+
+.exp2 {
+    color: white;
+    margin-top: 8%;
+    font-size: 3em;
+    text-align: center justify;
+}
+
+.erasmus {
+    color: white;
+    margin-top: 5%;
+    margin-right: 30%;
+    font-size: 2.2em;
+    text-align: center justify;
+}
+
+.slov {
+    color: white;
+    margin-top: 1%;
+    margin-right: 30%;
+    font-size: 2.2em;
+    text-align: center justify;
+}
+
+.certif {
+    color: white;
+    margin-top: 8%;
+    font-size: 3em;
+    text-align: center justify;
+}
+
+.dev {
+    color: white;
+    margin-top: 5%;
+    margin-right: 30%;
+    font-size: 2.2em;
+    text-align: center justify;
+}
+
+.rc4 {
+    color: white;
+    margin-top: 1%;
+    margin-right: 30%;
+    font-size: 2.2em;
+    text-align: center justify;
+}
+
+.imagem1 {
+    float: right;
+    width: 597px;
+}
+
+.imagem2 {
+    float: right;
+    width: 597px;
+    height: 276px;
+}
+
+.imagem3 {
+    float: right;
+    width: 597px;
+    height: 276px;
+}
+
+.fade-in-image {
+    opacity: 20%;
+  }
+
+.fade-in-image:hover {
+    opacity: 100%;
+    transition: opacity 1s;
+  }
